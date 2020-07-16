@@ -1,5 +1,5 @@
 part 'factory.dart';
-part 'helper/factory_helper.dart';
+part 'helper/injection_helper.dart';
 part 'injection_args.dart';
 part 'injector_impl.dart';
 
