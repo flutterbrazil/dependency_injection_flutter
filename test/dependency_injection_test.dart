@@ -1,4 +1,4 @@
-import 'package:dependency_injection/src/injector.dart';
+import 'package:dependency_injection_flutter/src/injector.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

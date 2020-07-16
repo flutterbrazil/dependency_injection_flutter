@@ -1,3 +1,3 @@
-library dependency_injection;
+library dependency_injection_flutter;
 
-export 'package:dependency_injection/src/injector.dart';
+export 'package:dependency_injection_flutter/src/injector.dart';
