@@ -1,7 +1,8 @@
-<img src="https://github.com/flutterbrazil/dependency_injection_flutter/blob/master/res/flutter_brazil_icon.png?raw=true" width="450">
-
-
 # Dependency Injection for Flutter
+
+ <img src="https://github.com/flutterbrazil/dependency_injection_flutter/blob/master/res/flutter_brazil_icon.png?raw=true" width="100">
+
+ **Flutter Brazil**
 
  [![Pub](https://img.shields.io/pub/v/dependency_injection_flutter)](https://pub.dev/packages/dependency_injection_flutter)
  [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://pub.dev/packages/effective_dart)
