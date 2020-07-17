@@ -38,9 +38,8 @@ A factory is the instance type that will return **always** as a brand new instan
 It can be useful to get a service for example.
 
 ```dart
-  Injector.instance.registerFactory<MyInstanceType>(()=>MyInstance(), type: InjectionType.factory);
+  Injector.instance.inject<MyInstanceType>(()=>MyInstance(), type: InjectionType.factory);
 ```
-
 
 ####  and get all of them with:
 

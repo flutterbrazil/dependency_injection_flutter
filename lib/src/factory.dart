@@ -33,7 +33,6 @@ class _Factory<T> {
     }
 
     return instanceToEject;
-    ;
   }
 }
 
