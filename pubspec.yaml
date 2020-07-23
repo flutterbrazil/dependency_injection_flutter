@@ -1,6 +1,6 @@
 name: dependency_injection_flutter
 description: dependency injection for flutter. inject factories or singletons. Easy to develop, easy to test.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/flutterbrazil/dependency_injection_flutter
 homepage: https://github.com/flutterbrazil/dependency_injection_flutter
 
@@ -8,8 +8,6 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
 
 dev_dependencies:
   flutter_test:

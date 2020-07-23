@@ -93,6 +93,26 @@ class MyService implements InjectionArgs {
 }
 ```
 
+#### Get your controller in your widget
+
+```dart
+  
+    
+class MyView extends StatelessWidget with InjectionMixin<MyController> {
+  
+  void doSomething() {
+    controller.onDoSomething();
+  }
+  
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
+    
+```
+
 #### Testing with Injector
 
 One of the great qualities of Injector is to provide an easy way to

@@ -1,8 +1,15 @@
+import 'package:dependency_injection_flutter/dependency_injection_flutter.dart';
+import 'package:example/src/ui/home/controller/home_controller.dart';
 import 'package:flutter/material.dart';
 
 import 'src/ui/home/home_page.dart';
 
 void main() {
+  var homeController = HomeController();
+  homeController.increment();
+
+  Injector.instance.inject<HomeController>(() => HomeController());
+
   runApp(MyApp());
 }
 
