@@ -47,52 +47,6 @@ It can be useful to get a service for example.
   var myInstance = Injector.instance.get<MyInstanceType>();
 ```
 
-You may want to get them with args*:
-
-```dart
-  var myInstance = Injector.instance.get<MyInstanceType>(args: {
-    'my_key': 1
-  });
-  //output: '1'
-  print(myInstance.args['my_key'].toString());
-```
-
-*In order to do this, you have to implement this in your class:
-
-```dart
-class MyClass implements InjectionArgs {
-  
-  @override
-  Map<String, dynamic> args = <String, dynamic> {};
-  
-}
-```
-
-and then you can use:
-
-```dart
-
-var myService = Injector.instance.get<MyService>(args: {
-  'api_client': APIClient()
-});
-
-class MyService implements InjectionArgs {
-  
-  final _apiClientKey = 'api_client';
-  
-  @override
-  Map<String, dynamic> args = <String, dynamic> {};
-  
-  Future<Response> getFoo() async {
-    
-    final client = args[_apiClientKey];
-    return await client.get('api-my_foo_url.com/foo');
-    
-  }
-  
-}
-```
-
 #### Get your controller in your widget
 
 ```dart

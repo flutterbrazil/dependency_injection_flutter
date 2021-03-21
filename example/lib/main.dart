@@ -8,7 +8,7 @@ void main() {
   var homeController = HomeController();
   homeController.increment();
 
-  Injector.instance.inject<HomeController>(() => HomeController());
+  Injector.instance.inject<HomeController>(() => homeController);
 
   runApp(MyApp());
 }
